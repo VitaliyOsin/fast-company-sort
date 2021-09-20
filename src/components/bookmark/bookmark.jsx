@@ -15,6 +15,7 @@ const Bookmark = ({ user, bookedHandler }) => {
   );
 };
 Bookmark.propTypes = {
-  user:PropTypes.object.isRequired, bookedHandler:PropTypes.func.isRequired
+  user: PropTypes.object.isRequired,
+  bookedHandler: PropTypes.func.isRequired,
 };
 export default Bookmark;

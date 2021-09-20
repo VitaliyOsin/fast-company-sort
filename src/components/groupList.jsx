@@ -8,16 +8,6 @@ const GroupList = ({
   onItemSelect,
   selectedItem,
 }) => {
-  if (Array.isArray(items)) {
-    console.log("Да массив!", items);
-    const items1 = items.reduce((t, v, i) => {
-      t[i] = v;
-      console.log("T: ", t);
-      return t;
-    }, {});
-    console.log("ITEMS: ", items1);
-  }
-
   return (
     <ul className="list-group">
       {Object.keys(items).map((item) => (

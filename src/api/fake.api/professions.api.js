@@ -23,6 +23,8 @@ const fetchAll = () =>
     }, 2000);
   });
 
-export default {
+const fetchApi = {
   fetchAll,
 };
+
+export default fetchApi;

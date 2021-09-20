@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const ResetBtn = ({ handleReset }) => (
-  <button className="btn btn-danger m-2" onClick={handleReset}>
+const ResetBtn = ({ onHandleReset }) => (
+  <button className="btn btn-danger m-2" onClick={onHandleReset}>
     Восстановить список
   </button>
 );
 ResetBtn.propTypes = {
-  handleReset:PropTypes.func.isRequired
+  onHandleReset: PropTypes.func.isRequired,
 };
 export default ResetBtn;
